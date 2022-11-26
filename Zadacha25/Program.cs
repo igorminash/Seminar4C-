@@ -2,7 +2,6 @@
 int number1 = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите число B: ");
 int number2 = int.Parse(Console.ReadLine()!);
-number2 = -number2;
 Console.WriteLine($"Число {number1} в степени числа {number2} = {GetDegree(number2)} ");
 GetDegree(number2);
 
